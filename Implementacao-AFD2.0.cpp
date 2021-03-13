@@ -58,7 +58,7 @@ cout<<"|****** By Jefter Targino e Jan Carlos******|"<<endl<<endl;
     for(int i = 0; i<qtdEstados; i++){
         for(int j = 0; j<qtdEstados;j++){
 
-                cout << "De q"<< i << " para q" << j << " interacao "<<k<<": ";
+                cout << "De q"<< i << " para q" << j << " interacao "<<k+1<<": ";
                 cin >> matriz[i][j][k];
                 //cout << endl;
             }
@@ -97,8 +97,6 @@ system("clear");
     for(int k = 0; k<qtdInte;k++){
         for(int j=0; j<qtdEstados;j++){
 
-                cout<<"Estado atual: "<<estAtual<<" j: "<<j<<" k :"<<k<<endl;
-                cout<<"Matriz: "<<matriz[estAtual][j][k]<<" == "<<"Caractere: "<<palavra[letra]<<endl;
                 if (matriz[estAtual][j][k] == palavra[letra]){
                     temp = estAtual;
                     estAtual=j;
