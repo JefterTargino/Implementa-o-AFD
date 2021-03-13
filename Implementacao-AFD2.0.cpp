@@ -4,7 +4,7 @@
 	* Autores: Jan Carlos dos Santos Silva e Jefter Roberto Mota Targino
 	* Data criação: 06/03/2021
 	* Versao: 2.0
-	* Data da ultima modificao: 06/03/2021
+	* Data da ultima modificao: 13/03/2021
 	* Descricao: Algoritmo que indica as cadeias que são reconhecidas ou não pelo autômato.
 */
 #include <iostream>
